@@ -1,0 +1,4 @@
+package VARIABLES
+
+var PKTSIZE = 1024 * 8
+var WINDOWSIZE = 12

@@ -1,0 +1,32 @@
+// PACKET SIZE  = 1024 Bytes , File Size = 8kb , window size = 4 for delay, 10 for others
+
+
+pktloss 0%  3ms
+pktloss 5%  1.003s
+pktloss 10% 1.004s
+pktloss 20% 2.347s
+pktloss 40% 7.001s
+pktloss 60% 16.002s
+pktloss 80% 44.005s
+pktloss 90% 76.009s
+
+reorder 25% 0.0025s
+reorder 50% 1.01s 
+reorder 80% 0.0006s
+reorder 90% 0.0006s
+
+delay 4s 40.9s
+delay 3s 31s
+delay 2s 20s
+delay 1s 10s
+
+
+corrupt 20% 1s 
+corrupt 30% 4.02s
+corrupt 50% 6.02s
+corrupt 80% 74s
+corrupt 90% 102s
+
+
+
+
